@@ -2,7 +2,7 @@
   "name": "Google Chat Status",
   "version": "0.1",
   "description": "Change Google Chat status when you are attending to a meeting",
-  "permissions": ["storage"],
+  "permissions": ["storage","activeTab"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
